@@ -4,6 +4,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      backgroundImage: theme => ({
+        'computer': "url('/src/images/christina.jpg')",
+      }),
       colors: {
         teal: colors.teal,
       }

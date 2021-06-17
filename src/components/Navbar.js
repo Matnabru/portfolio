@@ -28,22 +28,22 @@ const Navbar = () => {
                         </div>
                         <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                             <div className="flex-shrink-0 flex items-center">
-                                <a className={"text-gray-400 px-2 text-xl"}>Matnabru</a>
+                                <a className={"font-bold text-yellow-500 px-2 text-xl"}>Matnabru</a>
                             </div>
                             <div className="hidden sm:block sm:ml-6">
                                 <div className="flex space-x-4">
                                     <a href="#"
-                                       className="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium"
+                                       className="bg-gray-900 hover:text-yellow-500 text-white px-3 py-2 rounded-md text-sm font-medium"
                                        aria-current="page">Home</a>
 
                                     <a href="#"
-                                       className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Skills</a>
+                                       className="text-gray-300 hover:bg-gray-700 hover:text-yellow-500 px-3 py-2 rounded-md text-sm font-medium">Skills</a>
 
                                     <a href="#"
-                                       className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Projects</a>
+                                       className="text-gray-300 hover:bg-gray-700 hover:text-yellow-500 px-3 py-2 rounded-md text-sm font-medium">Projects</a>
 
                                     <a href="#"
-                                       className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+                                       className="text-gray-300 hover:bg-gray-700 hover:text-yellow-500 px-3 py-2 rounded-md text-sm font-medium">Contact</a>
                                 </div>
                             </div>
                         </div>
