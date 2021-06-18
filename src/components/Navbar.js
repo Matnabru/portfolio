@@ -15,7 +15,7 @@ const Navbar = () => {
     })
     let navbarClasses=['navbar'];
     if(scrolled){
-        navbarClasses.push('fixed inset-0')
+        navbarClasses.push('sticky inset-0')
     }
 
     return(

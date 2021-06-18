@@ -3,7 +3,7 @@ import {SkillBar} from 'react-skills'
 
 const Skills = () => {
     return (
-        <div className={"pt-5 pb-10 bg-gray-800"}>
+        <div className={"pt-5 pb-10 bg-gray-700"}>
             <div className={"grid text-center pt-5"}>
                 <a className={"font-bold text-yellow-500 text-5xl"}>Skills</a>
             </div>
