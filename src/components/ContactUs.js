@@ -24,7 +24,7 @@ export default function ContactUs() {
         }
     }
     return (
-        <div className={"bg-gray-600"}>
+        <div id={"contact"} className={"bg-gray-600"}>
             <div className="w-8/12 ml-auto mr-auto pt-10">
                 <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4" onSubmit={sendEmail}>
                     <div className={"text-center text-5xl font-bold text-yellow-500"}>

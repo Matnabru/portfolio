@@ -1,9 +1,10 @@
 import React from "react";
 import background from "../images/glasses.jpg"
 import ReactTyped from "react-typed";
+import {HashLink} from "react-router-hash-link";
 const Header = () => {
     return (
-        <div style={{
+        <div id={"header"} style={{
             height: `90vh`,
         }}>
             <div style={{
@@ -24,7 +25,11 @@ const Header = () => {
                     />
                 </div>
                 <div className={"grid"}>
-                    <a className={"font-bold text-gray-300 m-1 p-3 text-xl hover:bg-yellow-600 bg-yellow-500 w-8/12 lg:w-4/12 ml-auto mr-auto text-center rounded"} href={"#"}>Contact Me</a>
+                    <a className={"font-bold text-gray-300 m-1 p-3 text-xl hover:bg-yellow-600 bg-yellow-500 w-8/12 lg:w-4/12 ml-auto mr-auto text-center rounded"}>
+                        <HashLink smooth to={'/page#contact'}>
+                            Contact Me
+                        </HashLink>
+                    </a>
                 </div>
             </div>
         </div>
