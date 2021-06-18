@@ -17,7 +17,7 @@ const Header = () => {
                 <div className={"grid  text-center"}>
                     <ReactTyped
                         className={"text-yellow-500 font-extrabold text-4xl lg:text-6xl w-8/12 lg:w-5/12 ml-auto mt-20 pb-20 mr-auto"}
-                        strings={["Hi! I'm Matthew","Aspiring Dev","CS Freshman"]}
+                        strings={["Hi! I'm Mateusz","Aspiring Dev","CS Freshman","Check my work"]}
                         typeSpeed={40}
                         backSpeed={60}
                         loop

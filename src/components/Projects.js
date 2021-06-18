@@ -8,7 +8,7 @@ import loancalculatorImg from "../images/loancalculator.png"
 import tictactoeImg from "../images/tic-tac-toe.png"
 const Projects = () => {
     return(
-        <div className={"pt-5 pb-10 bg-gray-800"}>
+        <div className={"pt-5 pb-10 bg-gray-600"}>
             <div className={"grid text-center pt-5 mb-5"}>
                 <a className={"font-bold text-yellow-500 text-5xl"}>Projects</a>
             </div>
