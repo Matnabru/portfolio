@@ -1,8 +1,25 @@
-import React from "react";
+import React, {useEffect} from "react";
 
 const Navbar = () => {
+    const [scrolled,setScrolled] = React.useState(false);
+    const handleScroll = () => {
+        const offset = window.scrollY;
+        if(offset > 200){
+            setScrolled(true);
+        }else {
+            setScrolled(false);
+        }
+    }
+    useEffect(() => {
+        window.addEventListener('scroll',handleScroll)
+    })
+    let navbarClasses=['navbar'];
+    if(scrolled){
+        navbarClasses.push('fixed inset-0')
+    }
+
     return(
-        <div>
+        <div className={navbarClasses.join(" ")}>
             <nav className="bg-gray-800">
                 <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
                     <div className="relative flex items-center justify-between h-16">
